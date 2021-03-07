@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #313131;
+}
+.all {
+  background: #FAF9FA;
+  margin-left: 20px;
+  width: 500px;
+  height: 800px;
+  position: relative;
+}
+.all2 {
+  position: absolute;
+}
+h2, input, button, div {
+  margin-left: 15px;
+}
+input {
+  display: block;
+  padding: 15px 20px;
+  border: 3px solid #9F9E9F;
+  border-radius: 5px;
+  outline: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+ input:focus {
+  border: 3px solid #985B65;
+  color: #985B65;
+}
+button {
+  margin-top: 20px;
+  padding: 15px 20px;
+  border: 3px solid #9F9E9F;
+  border-radius: 5px;
+  font-size: 25px;
+  color: #8E5B61;
+  font-weight: bold;
+}
+button:hover {
+  border: 3px solid #9C585E;
+  background: #B57F81;
+  color: #FAF8F0;
+}
+h2{
+  color: #3B3A3B;
+  margin: 25px 0px 20px 15px;
+  font-size: 55px;
+}
+.hide {
+  display: none;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 15px;
+  width: 70%;
+  border: 1px solid #D5D3D5;
+  border-radius: 5px;
+  color: #807F80;
+  background: #EAE9EA;
+  text-align: center;
+}
+.task {
+  display: none;
+  margin-left: 35px;
+  margin-top: 10px;
+  padding: 10px 0;
+  font-size: 35px;
+  color: #555355;
+  font-weight: bold;
+}
